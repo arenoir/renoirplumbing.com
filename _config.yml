@@ -16,5 +16,6 @@
 title: Peter Renoir Plumbing
 email: info@renoirplumbing.com
 description: Providing plumbing, heating, and solar solutions to the East Bay and surrounding areas for over 30 years.
-url: "https://renoirplumbing.com" # the base hostname & protocol for your site
+url: "https://renoirplumbing.com"
+enforce_ssl: renoirplumbing.com
 markdown: kramdown
