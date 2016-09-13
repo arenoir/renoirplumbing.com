@@ -134,7 +134,6 @@ ul.navigation li a:hover{
 
 ul.navigation li.active a {
     border-color: transparent;
-    border-width: 1px;
     border-style:solid;
     background: #FFFFF9 url( "../assets/1/2/gradient.png" );
     -moz-border-radius-topleft: 8px;
