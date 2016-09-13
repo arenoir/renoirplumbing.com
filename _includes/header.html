@@ -1,0 +1,15 @@
+{% assign url = page.url|remove:'index.html' %}
+
+<a class="logo" href="index.html" ><h1>Renoir Plumbing</h1></a>
+<ul class="navigation">
+  <li class="{% if url == '/' %}active{% endif %}">
+    <a href="/">Home</a>
+  </li>
+  {% for page in site.pages %}
+    {% if page.title %}
+      <li class="{% if url == page.url %}active{% endif %}">
+        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
