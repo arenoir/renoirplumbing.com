@@ -1,0 +1,21 @@
+<div class="call">
+  <div class="call-box-top">
+    {% if include.call_text %}
+      <strong>{{include.call_text}}</strong>
+    {% else %}
+      {% if site.data.contact.phone %}
+          <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
+      {% endif %}
+      {% if site.data.contact.email %}
+      <div class="call-email"><strong>Email: </strong>
+        <a href="mailto:{{ site.data.contact.email }}">
+          {{ site.data.contact.email }}
+        </a>
+      </div>
+      {% endif %}
+    {% endif %}
+  </div>
+    <div class="call-box-bottom">
+      {% include new-job-button.html %}
+    </div>
+</div>

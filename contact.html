@@ -1,76 +1,33 @@
 ---
-layout: default
+layout: contact
 title: Contact
 ---
 
-<div class="contactContainer">
-  
-  <h3> Contact Renoir Plumbing</h3>
-  
-  <div class="row">
-  
-    <label>Address</label>
-  
-    <div class="address">
-  
-      <div class="street_name">
-        525 E. 11 St.
-      </div>
-      
-      <span class="locality">
-        Oakland,
-      </span>  
-  
-      <span class="region">
-        Ca
-      </span>  
-  
-      <span class="postal-code">
-        94606
-      </span> 
-  
-    </div>    
-  
-  </div>
-  
-  <div class="row">
-  
-    <label>Billing</label>
-  
-    <div class="address">
-  
-      <div class="street_name">
-        P.O Box 182
-      </div>
-      
-      <span class="locality">
-        Stevinson,
-      </span>  
-  
-      <span class="region">
-        Ca
-      </span>  
-  
-      <span class="postal-code">
-        95374
-      </span> 
-  
-    </div>    
-  
-  </div>
   
   
-  <div class="row">
-    <label>Phone</label>
-    <div class="tel">
-      510-842-6423
-    </div>  
-  </div>
+  <dl class="row">
+
+    <dt class="col-sm-3">Email</dt>
+    <dd class="col-sm-9">
+      <p>
+        <a href="mailto:{{ site.data.contact.email }}">
+          {{ site.data.contact.email }}
+        </a>
+      </p>
+    </dd>  
+
+    <dt class="col-sm-3">Phone</dt>
+    <dd class="col-sm-9">
+      <p>{{ site.data.contact.phone }}</p>
+    </dd>    
   
-  <div class="row">
-    <label>Email</label>
-    <div class="email">
-      info@renoirplumbing.com
-    </div>
-  </div>
-</div>  
+    <dt class="col-sm-3">Shop Address</dt>
+    <dd class="col-sm-9">
+      <p>525 E. 11 St.<br/>Oakland, Ca 94606 </p>
+    </dd>    
+
+    <dt class="col-sm-3">Billing Address</dt>
+    <dd class="col-sm-9">
+      <p>P.O Box 182<br/>Stevinson, Ca 95374</p>
+    </dd> 
+  </dl>  

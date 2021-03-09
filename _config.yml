@@ -13,9 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Peter Renoir Plumbing
+title: Renoir Plumbing Inc.
 email: info@renoirplumbing.com
 description: Providing plumbing, heating, and solar solutions to the East Bay and surrounding areas for over 30 years.
 url: "https://renoirplumbing.com"
 enforce_ssl: renoirplumbing.com
-markdown: kramdown
+
+permalink: pretty
+
+collections:
+  services:
+    output: true
+  team:
+    output: true
+
+plugins:
+  - jekyll-environment-variables
+  - jekyll-redirect-from
+  - jekyll-seo-tag
