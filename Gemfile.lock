@@ -265,6 +265,7 @@ DEPENDENCIES
   jekyll-environment-variables
   jekyll-redirect-from
   jekyll-seo-tag
+  jekyll-sitemap
 
 BUNDLED WITH
    1.17.2
