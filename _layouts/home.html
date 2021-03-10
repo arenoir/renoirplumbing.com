@@ -8,10 +8,15 @@ bodyClass: page-home
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7">
-        {{ content }}
-        {% include call.html show_button=true %}
-        <br><br>
-        {% include hiring.html %}
+        <div class="mb-4">
+          {{ content }}
+        </div>
+        <div class="mb-4">
+          {% include call.html show_button=true %}
+        </div>
+        <div class="mb-4">
+          {% include hiring.html %}
+        </div>
       </div>
       {% if page.intro_image %}
       <div class="col-12 col-md-5 order-1 order-md-2 position-relative">
