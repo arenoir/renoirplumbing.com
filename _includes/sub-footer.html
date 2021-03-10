@@ -6,9 +6,7 @@
           {% if site.data.social %}
             {% include social.html %}
           {% endif %}
-          {% if site.footer.copyright_text %}
-          <div class="copyright">{{ site.footer.copyright_text }}</div>
-          {% endif %}
+          <div class="copyright">© {{ 'now' | date: "%Y" }} {{site.title}}</div>
         </div>
       </div>
     </div>

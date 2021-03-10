@@ -1,5 +1,5 @@
 ---
-title: Team
+title: Meet The Team
 layout: teams
 permalink: /team/
 intro_image_absolute: true

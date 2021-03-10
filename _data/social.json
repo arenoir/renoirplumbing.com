@@ -1,12 +1,12 @@
 [
   {
-    "name": "Github",
-    "link": "https://github.com/zerostaticthemes/jekyll-serif-theme",
-    "image": "images/social/github.svg"
+    "name": "Google My Business",
+    "link": "https://g.page/renoir-plumbing?gm",
+    "image": "images/social/gmb-icon.png"
   },
   {
-    "name": "Twitter",
-    "link": "https://twitter.com/zerostaticio",
-    "image": "images/social/twitter.svg"
+    "name": "Bing places",
+    "link": "",
+    "image": "images/social/bing-icon.png"
   }
 ]

@@ -1,7 +1,6 @@
 ---
-title: Services
+title: Plumbing services
 layout: services
-
 ---
 
 # Plumbing services
