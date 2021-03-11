@@ -30,8 +30,10 @@ $sub-footer-text-color: $steel;
 @import 'bootstrap-variables';
 @import 'bootstrap/bootstrap-reboot';
 @import 'bootstrap/bootstrap-grid';
+@import 'bootstrap/card'; // Uncomment this line to import the entire Bootstrap library
 @import 'bootstrap/images'; // Uncomment this line to import the entire Bootstrap library
 @import 'bootstrap/spinners'; // Uncomment this line to import the entire Bootstrap library
+@import 'bootstrap/utilities'; // Uncomment this line to import the entire Bootstrap library
 
 
 // Libraries

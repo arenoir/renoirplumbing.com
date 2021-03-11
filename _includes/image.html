@@ -1,0 +1,12 @@
+{% assign size = "" %}
+{% assign ext = ".jpg" %}
+{% assign group = "hydronic-systems" %}
+
+{% capture image_url %}/images/gallery/{{group}}/{{include.id}}{{size}}{{ext}}{% endcapture %}
+
+{% assign alt = image.alt %}
+
+<img class="img-fluid {{image.class}} {{include.class}}" 
+  src="{{image_url}}"
+  alt="{{alt}}"
+/>

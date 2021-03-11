@@ -4,10 +4,8 @@ date: 2018-11-28T15:15:26+10:00
 featured: true
 weight: 2
 layout: service
+description: We provide minor service and repairs for all type of plumbing systems.
 ---
-
-We provide minor service and repairs for all type of plumbing systems.
-
 
 ## Kitchens
 
