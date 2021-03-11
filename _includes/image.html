@@ -7,6 +7,6 @@
 {% assign alt = image.alt %}
 
 <img class="img-fluid {{image.class}} {{include.class}}" 
-  src="{{image_url}}"
+  src="{{image_url}}?v={{ site.time | date:'%s' }}"
   alt="{{alt}}"
 />
