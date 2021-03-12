@@ -1,5 +1,5 @@
 ---
-title: Plumbing services
+title: Plumbing & Pipe Services
 layout: services
 ---
 
