@@ -23,6 +23,9 @@
   {% if page.keywords %}
   <meta name="keywords" content="{{page.keywords}}">
   {%endif%}
+  
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
 </head>
 <body class='page {{page.bodyClass}}'>
   {% include main-menu-mobile.html %}
