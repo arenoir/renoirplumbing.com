@@ -8,6 +8,8 @@ description: We love working with metal and providing the most robust solutions 
 
 
 ## ADA compliance
+We know the code and will make sure you stay compliant when adding or remodeling a commercial bathroom.
+
 
 ## Commercial kitchens
 
